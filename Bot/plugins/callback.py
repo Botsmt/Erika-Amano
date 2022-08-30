@@ -8,13 +8,13 @@ from Bot.utils.user_info import get_users, user_check_template
 BUTTONS_RESOLUTIONS = IKM(
     [
         [
-            IKB("ᴅᴇᴠᴇʟᴏᴘᴇʀ", 'answer_about_dev'),
-            IKB('ʜᴇʟᴘ', 'answer_help'),
+            IKB("Dev", 'answer_about_dev'),
+            IKB('Help', 'answer_help'),
         ],
         [
-            IKB('sᴇᴛ 𝟺𝟾𝟶ᴘ', 'settings_encoding_480p'),
-            IKB('sᴇᴛ 𝟽𝟸𝟶ᴘ', 'settings_encoding_720p'),
-            IKB('ѕєт 1080ρ', 'settings_encoding_1080p'),
+            IKB('Set 480p', 'settings_encoding_480p'),
+            IKB('Set 720P', 'settings_encoding_720p'),
+            IKB('Set 1080p', 'settings_encoding_1080p'),
         ]
     ]
 )
@@ -22,12 +22,12 @@ BUTTONS_RESOLUTIONS = IKM(
 BUTTONS_CRF = IKM(
     [
         [
-            IKB("ᴅᴇᴠᴇʟᴏᴘᴇʀ", 'answer_about_dev'),
-            IKB('ʜᴇʟᴘ', 'answer_help')
+            IKB("Dev", 'answer_about_dev'),
+            IKB('Help', 'answer_help')
         ],
         [
-            IKB('ᴄʀғ + 𝟷', 'settings_crf_plus'),
-            IKB('ᴄʀғ - 𝟷', 'settings_crf_minus'),
+            IKB('Crf + 𝟷', 'settings_crf_plus'),
+            IKB('Crf - 𝟷', 'settings_crf_minus'),
         ]
     ]
 )
@@ -35,13 +35,13 @@ BUTTONS_CRF = IKM(
 BUTTONS_AUDIO = IKM(
     [
         [
-            IKB("ᴅᴇᴠᴇʟᴏᴘᴇʀ", 'answer_about_dev'),
-            IKB('ʜᴇʟᴘ', 'answer_help')
+            IKB("Dev", 'answer_about_dev'),
+            IKB('Help', 'answer_help')
         ],
         [
-            IKB('sᴇᴛ ᴀᴀᴄ', 'settings_encoding_aac'),
-            IKB('ѕєт ᴏᴘᴜs', 'settings_encoding_opus'),
-            IKB('sᴇᴛ ʟɪʙᴏᴘᴜs', 'settings_encoding_libopus'),
+            IKB('Set Aac', 'settings_encoding_aac'),
+            IKB('Set Opus', 'settings_encoding_opus'),
+            IKB('Set Libopus', 'settings_encoding_libopus'),
         ]
     ]
 )
@@ -49,12 +49,12 @@ BUTTONS_AUDIO = IKM(
 BUTTONS_PRESET = IKM(
     [
         [
-            IKB("ᴅᴇᴠᴇʟᴏᴘᴇʀ", 'answer_about_dev'),
-            IKB('ʜᴇʟᴘ', 'answer_help')
+            IKB("Dev", 'answer_about_dev'),
+            IKB('Help', 'answer_help')
         ],
         [
-            IKB('sᴇᴛ ғᴀsᴛ', 'settings_encoding_fast'),
-            IKB('ѕєт sʟᴏᴡ', 'settings_encoding_slow'),
+            IKB('Set Fast', 'settings_encoding_fast'),
+            IKB('Set Slow', 'settings_encoding_slow'),
         ]
     ]
 )
@@ -62,12 +62,12 @@ BUTTONS_PRESET = IKM(
 BUTTONS_VCODEC = IKM(
     [
         [
-            IKB("ᴅᴇᴠᴇʟᴏᴘᴇʀ", 'answer_about_dev'),
-            IKB('ʜᴇʟᴘ', 'answer_help')
+            IKB("Dev", 'answer_about_dev'),
+            IKB('Help', 'answer_help')
         ],
         [
-            IKB('sᴇᴛ x𝟸𝟼𝟺', 'settings_encoding_x264'),
-            IKB('ѕєт x𝟸𝟼𝟻', 'settings_encoding_x265'),
+            IKB('Set x𝟸𝟼𝟺', 'settings_encoding_x264'),
+            IKB('Set x𝟸𝟼𝟻', 'settings_encoding_x265'),
         ]
     ]
 )
@@ -76,16 +76,16 @@ BUTTONS_VCODEC = IKM(
 BUTTONS_DEV = IKM(
     [
         [
-            IKB('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/sohailkhan_indianime'),
-            IKB('ɢɪᴛʜᴜʙ', url = 'https://github.com/soheru')
+            IKB('Dev', url='https://t.me/ovbots'),
+            IKB('Github', url = 'https://github.com/tellybots')
         ],
         [
-            IKB('ᴡᴇʙsɪᴛᴇ', url='https://teamyokai.tech'),
-            IKB('ᴄʜᴀɴɴᴇʟ', url='https://t.me/aboutmesk'),
+            IKB('Channel', url='https://t.me/ovbots'),
+            IKB('Support', url='https://t.me/OvBotsSupport'),
         ],
         [
-            IKB('ɪɴsᴛᴀɢʀᴀᴍ', url='https://instagram.com/_soheru'),
-            IKB('ʜᴇʟᴘ', 'answer_help')
+            IKB('CoOwners', url='https://t.me/dkbotz'),
+            IKB('Gelp', 'answer_help')
         ]
     ]
 )
@@ -93,17 +93,17 @@ BUTTONS_DEV = IKM(
 BUTTONS_HELP = IKM(
     [
         [
-            IKB("ᴅᴇᴠᴇʟᴏᴘᴇʀ", 'answer_about_dev'),
+            IKB("Developer", 'answer_about_dev'),
         ], 
         [
-            IKB('ʀᴇsᴏʟᴜᴛɪᴏɴ', 'answer_resolution'),
-            IKB('ᴀᴜᴅɪᴏ', 'answer_audio'),
-            IKB('ᴄʀғ', 'answer_crf')
+            IKB('Resolution', 'answer_resolution'),
+            IKB('Audio', 'answer_audio'),
+            IKB('Crf', 'answer_crf')
         ],
         [
-           IKB('ᴠᴄᴏᴅᴇᴄ', 'answer_vcodec'),
-           IKB('ᴘʀᴇsᴇᴛ', 'answer_preset'), 
-           IKB('ᴀᴜᴛᴏ ᴍᴏᴅᴇ', 'answer_what_is_auto')
+           IKB('Vcodec', 'answer_vcodec'),
+           IKB('Preset', 'answer_preset'), 
+           IKB('Auto Mode', 'answer_what_is_auto')
         ]
     ]
 )
